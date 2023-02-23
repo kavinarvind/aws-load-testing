@@ -1,0 +1,31 @@
+config:
+  target: http://asciiart.artillery.io:8080
+  plugins:
+    publish-metrics:
+      - type: cloudwatch
+        region: us-east-1
+        namespace: continous-testing
+        dimensions:
+          - name: Team
+            value: SQA
+          - name: Service
+            value: checkout-svc
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      rampTo: 10
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 20
+    - duration: 60
+      arrivalRate: 25
+scenarios:
+  - flow:
+      - loop:
+          - get:
+              url: "/dino"
+          - get:
+              url: "/armadillo"
+          - get:
+              url: "/pony"
+        count: 50
