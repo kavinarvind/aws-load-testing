@@ -1,8 +1,8 @@
 version: 0.2
 env:
     parameter-store:
-        AWS_ACCESS_KEY_ID_PARAM: /CodeBuild/AWS_ACCESS_KEY_ID
-        AWS_SECRET_ACCESS_KEY_PARAM: /CodeBuild/AWS_SECRET_ACCESS_KEY
+        AWS_ACCESS_KEY_ID_PARAM: AKIA5WEHMKA752A7CU4K
+        AWS_SECRET_ACCESS_KEY_PARAM: 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
 phases:
   install:
     commands:
