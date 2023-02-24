@@ -1,0 +1,2957 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 1200,
+      "vusers.created": 1200,
+      "http.requests": 359402,
+      "http.codes.200": 359400,
+      "http.responses": 359400,
+      "plugins.metrics-by-endpoint.Dino service.codes.200": 119800,
+      "plugins.metrics-by-endpoint.Armadillo service.codes.200": 119800,
+      "plugins.metrics-by-endpoint.Pony service.codes.200": 119800,
+      "vusers.failed": 2,
+      "vusers.completed": 1198,
+      "errors.ETIMEDOUT": 2
+    },
+    "rates": {
+      "http.request_rate": 619
+    },
+    "firstCounterAt": 1677211083150,
+    "firstHistogramAt": 1677211083656,
+    "lastCounterAt": 1677211289211,
+    "lastHistogramAt": 1677211289211,
+    "firstMetricAt": 1677211083150,
+    "lastMetricAt": 1677211289211,
+    "period": 1677211280000,
+    "summaries": {
+      "http.response_time": {
+        "min": 41,
+        "max": 1961,
+        "count": 359400,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "plugins.metrics-by-endpoint.response_time.Dino service": {
+        "min": 105,
+        "max": 1959,
+        "count": 119800,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+        "min": 100,
+        "max": 1961,
+        "count": 119800,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "plugins.metrics-by-endpoint.response_time.Pony service": {
+        "min": 41,
+        "max": 1954,
+        "count": 119800,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "vusers.session_length": {
+        "min": 62799.8,
+        "max": 166861.2,
+        "count": 1198,
+        "p50": 142963.7,
+        "median": 142963.7,
+        "p75": 148798.3,
+        "p90": 157999.8,
+        "p95": 161191.7,
+        "p99": 167770.3,
+        "p999": 167770.3
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 41,
+        "max": 1961,
+        "count": 359400,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "plugins.metrics-by-endpoint.response_time.Dino service": {
+        "min": 105,
+        "max": 1959,
+        "count": 119800,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+        "min": 100,
+        "max": 1961,
+        "count": 119800,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "plugins.metrics-by-endpoint.response_time.Pony service": {
+        "min": 41,
+        "max": 1954,
+        "count": 119800,
+        "p50": 468.8,
+        "median": 468.8,
+        "p75": 584.2,
+        "p90": 671.9,
+        "p95": 742.6,
+        "p99": 871.5,
+        "p999": 1686.1
+      },
+      "vusers.session_length": {
+        "min": 62799.8,
+        "max": 166861.2,
+        "count": 1198,
+        "p50": 142963.7,
+        "median": 142963.7,
+        "p75": 148798.3,
+        "p90": 157999.8,
+        "p95": 161191.7,
+        "p99": 167770.3,
+        "p999": 167770.3
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 135,
+        "vusers.created": 135,
+        "http.requests": 3686,
+        "http.codes.200": 3553,
+        "http.responses": 3553,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 1228,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 1185,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 1140
+      },
+      "rates": {
+        "http.request_rate": 561
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211083150,
+      "firstHistogramAt": 1677211083656,
+      "lastCounterAt": 1677211089998,
+      "lastHistogramAt": 1677211089998,
+      "firstMetricAt": 1677211083150,
+      "lastMetricAt": 1677211089998,
+      "period": "1677211080000",
+      "summaries": {
+        "http.response_time": {
+          "min": 107,
+          "max": 286,
+          "count": 3553,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 135.7,
+          "p99": 202.4,
+          "p999": 242.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 242,
+          "count": 1228,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 135.7,
+          "p99": 206.5,
+          "p999": 232.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 109,
+          "max": 286,
+          "count": 1185,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 133,
+          "p99": 202.4,
+          "p999": 228.2
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 107,
+          "max": 241,
+          "count": 1140,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 133,
+          "p99": 202.4,
+          "p999": 232.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 107,
+          "max": 286,
+          "count": 3553,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 135.7,
+          "p99": 202.4,
+          "p999": 242.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 242,
+          "count": 1228,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 135.7,
+          "p99": 206.5,
+          "p999": 232.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 109,
+          "max": 286,
+          "count": 1185,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 133,
+          "p99": 202.4,
+          "p999": 228.2
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 107,
+          "max": 241,
+          "count": 1140,
+          "p50": 115.6,
+          "median": 115.6,
+          "p75": 117.9,
+          "p90": 122.7,
+          "p95": 133,
+          "p99": 202.4,
+          "p999": 232.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 13830,
+        "http.codes.200": 13637,
+        "http.responses": 13637,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 4488,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 4612,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 4536,
+        "vusers.created_by_name.0": 197,
+        "vusers.created": 197,
+        "errors.ETIMEDOUT": 1,
+        "vusers.failed": 1
+      },
+      "rates": {
+        "http.request_rate": 1386
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211090000,
+      "firstHistogramAt": 1677211090000,
+      "lastCounterAt": 1677211099999,
+      "lastHistogramAt": 1677211099999,
+      "firstMetricAt": 1677211090000,
+      "lastMetricAt": 1677211099999,
+      "period": "1677211090000",
+      "summaries": {
+        "http.response_time": {
+          "min": 100,
+          "max": 413,
+          "count": 13637,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 186.8,
+          "p90": 228.2,
+          "p95": 257.3,
+          "p99": 314.2,
+          "p999": 391.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 108,
+          "max": 412,
+          "count": 4488,
+          "p50": 153,
+          "median": 153,
+          "p75": 186.8,
+          "p90": 232.8,
+          "p95": 257.3,
+          "p99": 314.2,
+          "p999": 399.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 105,
+          "max": 413,
+          "count": 4612,
+          "p50": 153,
+          "median": 153,
+          "p75": 190.6,
+          "p90": 228.2,
+          "p95": 252.2,
+          "p99": 314.2,
+          "p999": 383.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 100,
+          "max": 398,
+          "count": 4536,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 186.8,
+          "p90": 228.2,
+          "p95": 252.2,
+          "p99": 308,
+          "p999": 376.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 100,
+          "max": 413,
+          "count": 13637,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 186.8,
+          "p90": 228.2,
+          "p95": 257.3,
+          "p99": 314.2,
+          "p999": 391.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 108,
+          "max": 412,
+          "count": 4488,
+          "p50": 153,
+          "median": 153,
+          "p75": 186.8,
+          "p90": 232.8,
+          "p95": 257.3,
+          "p99": 314.2,
+          "p999": 399.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 105,
+          "max": 413,
+          "count": 4612,
+          "p50": 153,
+          "median": 153,
+          "p75": 190.6,
+          "p90": 228.2,
+          "p95": 252.2,
+          "p99": 314.2,
+          "p999": 383.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 100,
+          "max": 398,
+          "count": 4536,
+          "p50": 149.9,
+          "median": 149.9,
+          "p75": 186.8,
+          "p90": 228.2,
+          "p95": 252.2,
+          "p99": 308,
+          "p999": 376.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 17205,
+        "http.codes.200": 17004,
+        "http.responses": 17004,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 5676,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 5727,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 5602,
+        "vusers.created_by_name.0": 200,
+        "vusers.created": 200
+      },
+      "rates": {
+        "http.request_rate": 1723
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211100000,
+      "firstHistogramAt": 1677211100000,
+      "lastCounterAt": 1677211109999,
+      "lastHistogramAt": 1677211109999,
+      "firstMetricAt": 1677211100000,
+      "lastMetricAt": 1677211109999,
+      "period": "1677211100000",
+      "summaries": {
+        "http.response_time": {
+          "min": 109,
+          "max": 547,
+          "count": 17004,
+          "p50": 237.5,
+          "median": 237.5,
+          "p75": 284.3,
+          "p90": 333.7,
+          "p95": 361.5,
+          "p99": 441.5,
+          "p999": 518.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 110,
+          "max": 547,
+          "count": 5676,
+          "p50": 237.5,
+          "median": 237.5,
+          "p75": 278.7,
+          "p90": 327.1,
+          "p95": 361.5,
+          "p99": 441.5,
+          "p999": 518.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 543,
+          "count": 5727,
+          "p50": 237.5,
+          "median": 237.5,
+          "p75": 284.3,
+          "p90": 333.7,
+          "p95": 368.8,
+          "p99": 441.5,
+          "p999": 518.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 542,
+          "count": 5602,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 284.3,
+          "p90": 333.7,
+          "p95": 368.8,
+          "p99": 441.5,
+          "p999": 518.1
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 109,
+          "max": 547,
+          "count": 17004,
+          "p50": 237.5,
+          "median": 237.5,
+          "p75": 284.3,
+          "p90": 333.7,
+          "p95": 361.5,
+          "p99": 441.5,
+          "p999": 518.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 110,
+          "max": 547,
+          "count": 5676,
+          "p50": 237.5,
+          "median": 237.5,
+          "p75": 278.7,
+          "p90": 327.1,
+          "p95": 361.5,
+          "p99": 441.5,
+          "p999": 518.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 543,
+          "count": 5727,
+          "p50": 237.5,
+          "median": 237.5,
+          "p75": 284.3,
+          "p90": 333.7,
+          "p95": 368.8,
+          "p99": 441.5,
+          "p999": 518.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 542,
+          "count": 5602,
+          "p50": 232.8,
+          "median": 232.8,
+          "p75": 284.3,
+          "p90": 333.7,
+          "p95": 368.8,
+          "p99": 441.5,
+          "p999": 518.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 18489,
+        "http.responses": 18489,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6240,
+        "http.requests": 18691,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6146,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6102,
+        "vusers.created_by_name.0": 200,
+        "vusers.created": 200
+      },
+      "rates": {
+        "http.request_rate": 1870
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211110000,
+      "firstHistogramAt": 1677211110000,
+      "lastCounterAt": 1677211119999,
+      "lastHistogramAt": 1677211119999,
+      "firstMetricAt": 1677211110000,
+      "lastMetricAt": 1677211119999,
+      "period": "1677211110000",
+      "summaries": {
+        "http.response_time": {
+          "min": 138,
+          "max": 914,
+          "count": 18489,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 478.3,
+          "p99": 658.6,
+          "p999": 889.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 141,
+          "max": 905,
+          "count": 6240,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 487.9,
+          "p99": 671.9,
+          "p999": 889.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 138,
+          "max": 914,
+          "count": 6146,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 478.3,
+          "p99": 645.6,
+          "p999": 907
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 142,
+          "max": 911,
+          "count": 6102,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 478.3,
+          "p99": 658.6,
+          "p999": 854.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 138,
+          "max": 914,
+          "count": 18489,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 478.3,
+          "p99": 658.6,
+          "p999": 889.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 141,
+          "max": 905,
+          "count": 6240,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 487.9,
+          "p99": 671.9,
+          "p999": 889.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 138,
+          "max": 914,
+          "count": 6146,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 478.3,
+          "p99": 645.6,
+          "p999": 907
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 142,
+          "max": 911,
+          "count": 6102,
+          "p50": 314.2,
+          "median": 314.2,
+          "p75": 376.2,
+          "p90": 432.7,
+          "p95": 478.3,
+          "p99": 658.6,
+          "p999": 854.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 16967,
+        "http.codes.200": 16798,
+        "http.responses": 16798,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 5657,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 5533,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 5609,
+        "vusers.created_by_name.0": 170,
+        "vusers.created": 170
+      },
+      "rates": {
+        "http.request_rate": 1697
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211120000,
+      "firstHistogramAt": 1677211120000,
+      "lastCounterAt": 1677211129999,
+      "lastHistogramAt": 1677211129999,
+      "firstMetricAt": 1677211120000,
+      "lastMetricAt": 1677211129999,
+      "period": "1677211120000",
+      "summaries": {
+        "http.response_time": {
+          "min": 194,
+          "max": 1065,
+          "count": 16798,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 194,
+          "max": 1058,
+          "count": 5657,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 200,
+          "max": 1065,
+          "count": 5533,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 199,
+          "max": 1058,
+          "count": 5609,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 982.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 194,
+          "max": 1065,
+          "count": 16798,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 194,
+          "max": 1058,
+          "count": 5657,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 200,
+          "max": 1065,
+          "count": 5533,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 199,
+          "max": 1058,
+          "count": 5609,
+          "p50": 441.5,
+          "median": 441.5,
+          "p75": 561.2,
+          "p90": 671.9,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 982.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 18611,
+        "http.codes.200": 18453,
+        "http.responses": 18453,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6078,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6189,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6184,
+        "vusers.created_by_name.0": 158,
+        "vusers.created": 158,
+        "errors.ETIMEDOUT": 1,
+        "vusers.failed": 1
+      },
+      "rates": {
+        "http.request_rate": 1862
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211130000,
+      "firstHistogramAt": 1677211130000,
+      "lastCounterAt": 1677211139999,
+      "lastHistogramAt": 1677211139999,
+      "firstMetricAt": 1677211130000,
+      "lastMetricAt": 1677211139999,
+      "period": "1677211130000",
+      "summaries": {
+        "http.response_time": {
+          "min": 221,
+          "max": 902,
+          "count": 18453,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 658.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 222,
+          "max": 865,
+          "count": 6078,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 645.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 225,
+          "max": 902,
+          "count": 6189,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 658.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 854.2
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 221,
+          "max": 899,
+          "count": 6184,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 658.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 820.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 221,
+          "max": 902,
+          "count": 18453,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 658.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 222,
+          "max": 865,
+          "count": 6078,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 645.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 225,
+          "max": 902,
+          "count": 6189,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 658.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 854.2
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 221,
+          "max": 899,
+          "count": 6184,
+          "p50": 518.1,
+          "median": 518.1,
+          "p75": 584.2,
+          "p90": 658.6,
+          "p95": 713.5,
+          "p99": 788.5,
+          "p999": 820.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 17596,
+        "http.codes.200": 17469,
+        "http.responses": 17469,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 5791,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 5878,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 5801,
+        "vusers.created_by_name.0": 128,
+        "vusers.created": 128,
+        "vusers.failed": 0,
+        "vusers.completed": 3
+      },
+      "rates": {
+        "http.request_rate": 1762
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211140000,
+      "firstHistogramAt": 1677211140000,
+      "lastCounterAt": 1677211149999,
+      "lastHistogramAt": 1677211149998,
+      "firstMetricAt": 1677211140000,
+      "lastMetricAt": 1677211149999,
+      "period": "1677211140000",
+      "summaries": {
+        "http.response_time": {
+          "min": 305,
+          "max": 1961,
+          "count": 17469,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 671.9,
+          "p90": 788.5,
+          "p95": 1002.4,
+          "p99": 1790.4,
+          "p999": 1901.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 317,
+          "max": 1961,
+          "count": 5791,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 658.6,
+          "p90": 788.5,
+          "p95": 1002.4,
+          "p99": 1790.4,
+          "p999": 1901.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 305,
+          "max": 1959,
+          "count": 5878,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 671.9,
+          "p90": 788.5,
+          "p95": 1043.3,
+          "p99": 1826.6,
+          "p999": 1901.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 305,
+          "max": 1954,
+          "count": 5801,
+          "p50": 596,
+          "median": 596,
+          "p75": 671.9,
+          "p90": 788.5,
+          "p95": 963.1,
+          "p99": 1790.4,
+          "p999": 1901.1
+        },
+        "vusers.session_length": {
+          "min": 62799.8,
+          "max": 64944.3,
+          "count": 3,
+          "p50": 64236,
+          "median": 64236,
+          "p75": 64236,
+          "p90": 64236,
+          "p95": 64236,
+          "p99": 64236,
+          "p999": 64236
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 305,
+          "max": 1961,
+          "count": 17469,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 671.9,
+          "p90": 788.5,
+          "p95": 1002.4,
+          "p99": 1790.4,
+          "p999": 1901.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 317,
+          "max": 1961,
+          "count": 5791,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 658.6,
+          "p90": 788.5,
+          "p95": 1002.4,
+          "p99": 1790.4,
+          "p999": 1901.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 305,
+          "max": 1959,
+          "count": 5878,
+          "p50": 584.2,
+          "median": 584.2,
+          "p75": 671.9,
+          "p90": 788.5,
+          "p95": 1043.3,
+          "p99": 1826.6,
+          "p999": 1901.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 305,
+          "max": 1954,
+          "count": 5801,
+          "p50": 596,
+          "median": 596,
+          "p75": 671.9,
+          "p90": 788.5,
+          "p95": 963.1,
+          "p99": 1790.4,
+          "p999": 1901.1
+        },
+        "vusers.session_length": {
+          "min": 62799.8,
+          "max": 64944.3,
+          "count": 3,
+          "p50": 64236,
+          "median": 64236,
+          "p75": 64236,
+          "p90": 64236,
+          "p95": 64236,
+          "p99": 64236,
+          "p999": 64236
+        }
+      }
+    },
+    {
+      "counters": {
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6280,
+        "http.requests": 18854,
+        "http.codes.200": 18851,
+        "http.responses": 18851,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6286,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6285,
+        "vusers.created_by_name.0": 12,
+        "vusers.created": 12,
+        "vusers.failed": 0,
+        "vusers.completed": 6
+      },
+      "rates": {
+        "http.request_rate": 1889
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211150000,
+      "firstHistogramAt": 1677211150000,
+      "lastCounterAt": 1677211159999,
+      "lastHistogramAt": 1677211159999,
+      "firstMetricAt": 1677211150000,
+      "lastMetricAt": 1677211159999,
+      "period": "1677211150000",
+      "summaries": {
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 41,
+          "max": 1830,
+          "count": 6280,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 854.2,
+          "p99": 1556.5,
+          "p999": 1720.2
+        },
+        "http.response_time": {
+          "min": 41,
+          "max": 1834,
+          "count": 18851,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 854.2,
+          "p99": 1556.5,
+          "p999": 1790.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 270,
+          "max": 1831,
+          "count": 6286,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 871.5,
+          "p99": 1556.5,
+          "p999": 1790.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 272,
+          "max": 1834,
+          "count": 6285,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 854.2,
+          "p99": 1556.5,
+          "p999": 1790.4
+        },
+        "vusers.session_length": {
+          "min": 66885.9,
+          "max": 72180.1,
+          "count": 6,
+          "p50": 69586.2,
+          "median": 69586.2,
+          "p75": 70992,
+          "p90": 70992,
+          "p95": 70992,
+          "p99": 70992,
+          "p999": 70992
+        }
+      },
+      "histograms": {
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 41,
+          "max": 1830,
+          "count": 6280,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 854.2,
+          "p99": 1556.5,
+          "p999": 1720.2
+        },
+        "http.response_time": {
+          "min": 41,
+          "max": 1834,
+          "count": 18851,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 854.2,
+          "p99": 1556.5,
+          "p999": 1790.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 270,
+          "max": 1831,
+          "count": 6286,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 871.5,
+          "p99": 1556.5,
+          "p999": 1790.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 272,
+          "max": 1834,
+          "count": 6285,
+          "p50": 620.3,
+          "median": 620.3,
+          "p75": 685.5,
+          "p90": 788.5,
+          "p95": 854.2,
+          "p99": 1556.5,
+          "p999": 1790.4
+        },
+        "vusers.session_length": {
+          "min": 66885.9,
+          "max": 72180.1,
+          "count": 6,
+          "p50": 69586.2,
+          "median": 69586.2,
+          "p75": 70992,
+          "p90": 70992,
+          "p95": 70992,
+          "p99": 70992,
+          "p999": 70992
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 19678,
+        "http.codes.200": 19683,
+        "http.responses": 19683,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6542,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6580,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6562,
+        "vusers.failed": 0,
+        "vusers.completed": 5
+      },
+      "rates": {
+        "http.request_rate": 1969
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211160000,
+      "firstHistogramAt": 1677211160000,
+      "lastCounterAt": 1677211169999,
+      "lastHistogramAt": 1677211169999,
+      "firstMetricAt": 1677211160000,
+      "lastMetricAt": 1677211169999,
+      "period": "1677211160000",
+      "summaries": {
+        "http.response_time": {
+          "min": 280,
+          "max": 949,
+          "count": 19683,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 889.1,
+          "p999": 925.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 281,
+          "max": 942,
+          "count": 6542,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 889.1,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 280,
+          "max": 940,
+          "count": 6580,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 871.5,
+          "p999": 925.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 282,
+          "max": 949,
+          "count": 6562,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "vusers.session_length": {
+          "min": 73229.6,
+          "max": 78376.8,
+          "count": 5,
+          "p50": 76904.9,
+          "median": 76904.9,
+          "p75": 76904.9,
+          "p90": 76904.9,
+          "p95": 76904.9,
+          "p99": 76904.9,
+          "p999": 76904.9
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 280,
+          "max": 949,
+          "count": 19683,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 889.1,
+          "p999": 925.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 281,
+          "max": 942,
+          "count": 6542,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 889.1,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 280,
+          "max": 940,
+          "count": 6580,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 871.5,
+          "p999": 925.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 282,
+          "max": 949,
+          "count": 6562,
+          "p50": 608,
+          "median": 608,
+          "p75": 671.9,
+          "p90": 772.9,
+          "p95": 820.7,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "vusers.session_length": {
+          "min": 73229.6,
+          "max": 78376.8,
+          "count": 5,
+          "p50": 76904.9,
+          "median": 76904.9,
+          "p75": 76904.9,
+          "p90": 76904.9,
+          "p95": 76904.9,
+          "p99": 76904.9,
+          "p999": 76904.9
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 19914,
+        "http.responses": 19914,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6634,
+        "http.requests": 19907,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6626,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6653,
+        "vusers.failed": 0,
+        "vusers.completed": 7
+      },
+      "rates": {
+        "http.request_rate": 1991
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211170000,
+      "firstHistogramAt": 1677211170000,
+      "lastCounterAt": 1677211179999,
+      "lastHistogramAt": 1677211179999,
+      "firstMetricAt": 1677211170000,
+      "lastMetricAt": 1677211179999,
+      "period": "1677211170000",
+      "summaries": {
+        "http.response_time": {
+          "min": 260,
+          "max": 969,
+          "count": 19914,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 263,
+          "max": 967,
+          "count": 6634,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 263,
+          "max": 969,
+          "count": 6626,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 260,
+          "max": 969,
+          "count": 6653,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 925.4
+        },
+        "vusers.session_length": {
+          "min": 80350.5,
+          "max": 84761.3,
+          "count": 7,
+          "p50": 81660.6,
+          "median": 81660.6,
+          "p75": 83310.3,
+          "p90": 84993.4,
+          "p95": 84993.4,
+          "p99": 84993.4,
+          "p999": 84993.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 260,
+          "max": 969,
+          "count": 19914,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 263,
+          "max": 967,
+          "count": 6634,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 263,
+          "max": 969,
+          "count": 6626,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 944
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 260,
+          "max": 969,
+          "count": 6653,
+          "p50": 596,
+          "median": 596,
+          "p75": 658.6,
+          "p90": 742.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 925.4
+        },
+        "vusers.session_length": {
+          "min": 80350.5,
+          "max": 84761.3,
+          "count": 7,
+          "p50": 81660.6,
+          "median": 81660.6,
+          "p75": 83310.3,
+          "p90": 84993.4,
+          "p95": 84993.4,
+          "p99": 84993.4,
+          "p999": 84993.4
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 20862,
+        "http.codes.200": 20873,
+        "http.responses": 20873,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6964,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6954,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6956,
+        "vusers.failed": 0,
+        "vusers.completed": 12
+      },
+      "rates": {
+        "http.request_rate": 2089
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211180000,
+      "firstHistogramAt": 1677211180001,
+      "lastCounterAt": 1677211189999,
+      "lastHistogramAt": 1677211189999,
+      "firstMetricAt": 1677211180000,
+      "lastMetricAt": 1677211189999,
+      "period": "1677211180000",
+      "summaries": {
+        "http.response_time": {
+          "min": 205,
+          "max": 1003,
+          "count": 20873,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 907,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 205,
+          "max": 1003,
+          "count": 6964,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 907,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 207,
+          "max": 1001,
+          "count": 6954,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 889.1,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 207,
+          "max": 999,
+          "count": 6956,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 889.1,
+          "p999": 963.1
+        },
+        "vusers.session_length": {
+          "min": 85919.3,
+          "max": 106082.5,
+          "count": 12,
+          "p50": 88462.1,
+          "median": 88462.1,
+          "p75": 92072.4,
+          "p90": 105909,
+          "p95": 105909,
+          "p99": 105909,
+          "p999": 105909
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 205,
+          "max": 1003,
+          "count": 20873,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 907,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 205,
+          "max": 1003,
+          "count": 6964,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 907,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 207,
+          "max": 1001,
+          "count": 6954,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 889.1,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 207,
+          "max": 999,
+          "count": 6956,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 632.8,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 889.1,
+          "p999": 963.1
+        },
+        "vusers.session_length": {
+          "min": 85919.3,
+          "max": 106082.5,
+          "count": 12,
+          "p50": 88462.1,
+          "median": 88462.1,
+          "p75": 92072.4,
+          "p90": 105909,
+          "p95": 105909,
+          "p99": 105909,
+          "p999": 105909
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 20491,
+        "http.codes.200": 20531,
+        "http.responses": 20531,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6863,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6827,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6841,
+        "vusers.failed": 0,
+        "vusers.completed": 39
+      },
+      "rates": {
+        "http.request_rate": 2052
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211190000,
+      "firstHistogramAt": 1677211190000,
+      "lastCounterAt": 1677211199999,
+      "lastHistogramAt": 1677211199999,
+      "firstMetricAt": 1677211190000,
+      "lastMetricAt": 1677211199999,
+      "period": "1677211190000",
+      "summaries": {
+        "http.response_time": {
+          "min": 183,
+          "max": 1244,
+          "count": 20531,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 189,
+          "max": 1194,
+          "count": 6863,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 963.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 183,
+          "max": 1244,
+          "count": 6827,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 188,
+          "max": 1183,
+          "count": 6841,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 804.5,
+          "p99": 871.5,
+          "p999": 1043.3
+        },
+        "vusers.session_length": {
+          "min": 91608.1,
+          "max": 115764,
+          "count": 39,
+          "p50": 110231.4,
+          "median": 110231.4,
+          "p75": 110231.4,
+          "p90": 112458.3,
+          "p95": 114730.2,
+          "p99": 114730.2,
+          "p999": 114730.2
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 183,
+          "max": 1244,
+          "count": 20531,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 189,
+          "max": 1194,
+          "count": 6863,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 963.1
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 183,
+          "max": 1244,
+          "count": 6827,
+          "p50": 572.6,
+          "median": 572.6,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 788.5,
+          "p99": 871.5,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 188,
+          "max": 1183,
+          "count": 6841,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 645.6,
+          "p90": 757.6,
+          "p95": 804.5,
+          "p99": 871.5,
+          "p999": 1043.3
+        },
+        "vusers.session_length": {
+          "min": 91608.1,
+          "max": 115764,
+          "count": 39,
+          "p50": 110231.4,
+          "median": 110231.4,
+          "p75": 110231.4,
+          "p90": 112458.3,
+          "p95": 114730.2,
+          "p99": 114730.2,
+          "p999": 114730.2
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 20395,
+        "http.codes.200": 20451,
+        "http.responses": 20451,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6794,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6840,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6817,
+        "vusers.failed": 0,
+        "vusers.completed": 56
+      },
+      "rates": {
+        "http.request_rate": 2040
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211200000,
+      "firstHistogramAt": 1677211200000,
+      "lastCounterAt": 1677211209999,
+      "lastHistogramAt": 1677211209999,
+      "firstMetricAt": 1677211200000,
+      "lastMetricAt": 1677211209999,
+      "period": "1677211200000",
+      "summaries": {
+        "http.response_time": {
+          "min": 147,
+          "max": 1021,
+          "count": 20451,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 147,
+          "max": 1020,
+          "count": 6794,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 907,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 149,
+          "max": 1010,
+          "count": 6840,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 772.9,
+          "p99": 907,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 150,
+          "max": 1021,
+          "count": 6817,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 871.5,
+          "p999": 1002.4
+        },
+        "vusers.session_length": {
+          "min": 96029.3,
+          "max": 123916.4,
+          "count": 56,
+          "p50": 117048,
+          "median": 117048,
+          "p75": 119412.6,
+          "p90": 121824.9,
+          "p95": 121824.9,
+          "p99": 121824.9,
+          "p999": 121824.9
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 147,
+          "max": 1021,
+          "count": 20451,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 772.9,
+          "p99": 889.1,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 147,
+          "max": 1020,
+          "count": 6794,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 907,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 149,
+          "max": 1010,
+          "count": 6840,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 772.9,
+          "p99": 907,
+          "p999": 1002.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 150,
+          "max": 1021,
+          "count": 6817,
+          "p50": 561.2,
+          "median": 561.2,
+          "p75": 620.3,
+          "p90": 713.5,
+          "p95": 757.6,
+          "p99": 871.5,
+          "p999": 1002.4
+        },
+        "vusers.session_length": {
+          "min": 96029.3,
+          "max": 123916.4,
+          "count": 56,
+          "p50": 117048,
+          "median": 117048,
+          "p75": 119412.6,
+          "p90": 121824.9,
+          "p95": 121824.9,
+          "p99": 121824.9,
+          "p999": 121824.9
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 21135,
+        "http.codes.200": 21218,
+        "http.responses": 21218,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 7044,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 7103,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 7070,
+        "vusers.failed": 0,
+        "vusers.completed": 84
+      },
+      "rates": {
+        "http.request_rate": 2115
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211210000,
+      "firstHistogramAt": 1677211210000,
+      "lastCounterAt": 1677211219999,
+      "lastHistogramAt": 1677211219999,
+      "firstMetricAt": 1677211210000,
+      "lastMetricAt": 1677211219999,
+      "period": "1677211210000",
+      "summaries": {
+        "http.response_time": {
+          "min": 109,
+          "max": 1047,
+          "count": 21218,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 561.2,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 757.6,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 980,
+          "count": 7044,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 572.6,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 742.6,
+          "p999": 925.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 1043,
+          "count": 7103,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 561.2,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 757.6,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 110,
+          "max": 1047,
+          "count": 7070,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 561.2,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 772.9,
+          "p999": 982.6
+        },
+        "vusers.session_length": {
+          "min": 85451.5,
+          "max": 131509.1,
+          "count": 84,
+          "p50": 97766.1,
+          "median": 97766.1,
+          "p75": 126796.9,
+          "p90": 129358.4,
+          "p95": 129358.4,
+          "p99": 131971.7,
+          "p999": 131971.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 109,
+          "max": 1047,
+          "count": 21218,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 561.2,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 757.6,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 980,
+          "count": 7044,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 572.6,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 742.6,
+          "p999": 925.4
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 1043,
+          "count": 7103,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 561.2,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 757.6,
+          "p999": 982.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 110,
+          "max": 1047,
+          "count": 7070,
+          "p50": 507.8,
+          "median": 507.8,
+          "p75": 561.2,
+          "p90": 632.8,
+          "p95": 671.9,
+          "p99": 772.9,
+          "p999": 982.6
+        },
+        "vusers.session_length": {
+          "min": 85451.5,
+          "max": 131509.1,
+          "count": 84,
+          "p50": 97766.1,
+          "median": 97766.1,
+          "p75": 126796.9,
+          "p90": 129358.4,
+          "p95": 129358.4,
+          "p99": 131971.7,
+          "p999": 131971.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 18910,
+        "http.codes.200": 18974,
+        "http.responses": 18974,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6340,
+        "vusers.failed": 0,
+        "vusers.completed": 65,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6296,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6339
+      },
+      "rates": {
+        "http.request_rate": 1945
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211220000,
+      "firstHistogramAt": 1677211220000,
+      "lastCounterAt": 1677211229999,
+      "lastHistogramAt": 1677211229999,
+      "firstMetricAt": 1677211220000,
+      "lastMetricAt": 1677211229999,
+      "period": "1677211220000",
+      "summaries": {
+        "http.response_time": {
+          "min": 109,
+          "max": 858,
+          "count": 18974,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 645.6,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 820.7
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 858,
+          "count": 6340,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 645.6,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 804.5
+        },
+        "vusers.session_length": {
+          "min": 78177.6,
+          "max": 139519.2,
+          "count": 65,
+          "p50": 131971.7,
+          "median": 131971.7,
+          "p75": 134637.8,
+          "p90": 137357.8,
+          "p95": 137357.8,
+          "p99": 137357.8,
+          "p999": 137357.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 110,
+          "max": 847,
+          "count": 6296,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 645.6,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 820.7
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 110,
+          "max": 845,
+          "count": 6339,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 632.8,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 804.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 109,
+          "max": 858,
+          "count": 18974,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 645.6,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 820.7
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 858,
+          "count": 6340,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 645.6,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 804.5
+        },
+        "vusers.session_length": {
+          "min": 78177.6,
+          "max": 139519.2,
+          "count": 65,
+          "p50": 131971.7,
+          "median": 131971.7,
+          "p75": 134637.8,
+          "p90": 137357.8,
+          "p95": 137357.8,
+          "p99": 137357.8,
+          "p999": 137357.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 110,
+          "max": 847,
+          "count": 6296,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 645.6,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 820.7
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 110,
+          "max": 845,
+          "count": 6339,
+          "p50": 478.3,
+          "median": 478.3,
+          "p75": 550.1,
+          "p90": 632.8,
+          "p95": 685.5,
+          "p99": 772.9,
+          "p999": 804.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 18325,
+        "http.responses": 18325,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6094,
+        "http.requests": 18265,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6100,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6131,
+        "vusers.failed": 0,
+        "vusers.completed": 58
+      },
+      "rates": {
+        "http.request_rate": 1827
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211230000,
+      "firstHistogramAt": 1677211230000,
+      "lastCounterAt": 1677211239999,
+      "lastHistogramAt": 1677211239999,
+      "firstMetricAt": 1677211230000,
+      "lastMetricAt": 1677211239999,
+      "period": "1677211230000",
+      "summaries": {
+        "http.response_time": {
+          "min": 334,
+          "max": 866,
+          "count": 18325,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 550.1,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 335,
+          "max": 866,
+          "count": 6094,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 550.1,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 334,
+          "max": 842,
+          "count": 6100,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 539.2,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 335,
+          "max": 862,
+          "count": 6131,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 539.2,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 772.9,
+          "p999": 837.3
+        },
+        "vusers.session_length": {
+          "min": 136636,
+          "max": 147937.5,
+          "count": 58,
+          "p50": 142963.7,
+          "median": 142963.7,
+          "p75": 142963.7,
+          "p90": 145851.8,
+          "p95": 145851.8,
+          "p99": 148798.3,
+          "p999": 148798.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 334,
+          "max": 866,
+          "count": 18325,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 550.1,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 335,
+          "max": 866,
+          "count": 6094,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 550.1,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 334,
+          "max": 842,
+          "count": 6100,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 539.2,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 788.5,
+          "p999": 837.3
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 335,
+          "max": 862,
+          "count": 6131,
+          "p50": 468.8,
+          "median": 468.8,
+          "p75": 539.2,
+          "p90": 620.3,
+          "p95": 671.9,
+          "p99": 772.9,
+          "p999": 837.3
+        },
+        "vusers.session_length": {
+          "min": 136636,
+          "max": 147937.5,
+          "count": 58,
+          "p50": 142963.7,
+          "median": 142963.7,
+          "p75": 142963.7,
+          "p90": 145851.8,
+          "p95": 145851.8,
+          "p99": 148798.3,
+          "p999": 148798.3
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.requests": 18687,
+        "http.codes.200": 18763,
+        "http.responses": 18763,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6218,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6274,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6270,
+        "vusers.failed": 0,
+        "vusers.completed": 79
+      },
+      "rates": {
+        "http.request_rate": 1870
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211240000,
+      "firstHistogramAt": 1677211240000,
+      "lastCounterAt": 1677211249999,
+      "lastHistogramAt": 1677211249999,
+      "firstMetricAt": 1677211240000,
+      "lastMetricAt": 1677211249999,
+      "period": "1677211240000",
+      "summaries": {
+        "http.response_time": {
+          "min": 288,
+          "max": 764,
+          "count": 18763,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 487.9,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 699.4,
+          "p999": 757.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 293,
+          "max": 763,
+          "count": 6218,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 487.9,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 699.4,
+          "p999": 757.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 288,
+          "max": 764,
+          "count": 6274,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 487.9,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 685.5,
+          "p999": 757.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 289,
+          "max": 764,
+          "count": 6270,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 497.8,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 699.4,
+          "p999": 757.6
+        },
+        "vusers.session_length": {
+          "min": 142776.7,
+          "max": 154604.3,
+          "count": 79,
+          "p50": 145851.8,
+          "median": 145851.8,
+          "p75": 148798.3,
+          "p90": 151804.3,
+          "p95": 151804.3,
+          "p99": 154871.1,
+          "p999": 154871.1
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 288,
+          "max": 764,
+          "count": 18763,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 487.9,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 699.4,
+          "p999": 757.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 293,
+          "max": 763,
+          "count": 6218,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 487.9,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 699.4,
+          "p999": 757.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 288,
+          "max": 764,
+          "count": 6274,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 487.9,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 685.5,
+          "p999": 757.6
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 289,
+          "max": 764,
+          "count": 6270,
+          "p50": 415.8,
+          "median": 415.8,
+          "p75": 497.8,
+          "p90": 572.6,
+          "p95": 620.3,
+          "p99": 699.4,
+          "p999": 757.6
+        },
+        "vusers.session_length": {
+          "min": 142776.7,
+          "max": 154604.3,
+          "count": 79,
+          "p50": 145851.8,
+          "median": 145851.8,
+          "p75": 148798.3,
+          "p90": 151804.3,
+          "p95": 151804.3,
+          "p99": 154871.1,
+          "p999": 154871.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 19474,
+        "http.responses": 19474,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6519,
+        "http.requests": 19352,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6463,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6492,
+        "vusers.failed": 0,
+        "vusers.completed": 121
+      },
+      "rates": {
+        "http.request_rate": 1935
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211250000,
+      "firstHistogramAt": 1677211250000,
+      "lastCounterAt": 1677211259999,
+      "lastHistogramAt": 1677211259999,
+      "firstMetricAt": 1677211250000,
+      "lastMetricAt": 1677211259999,
+      "period": "1677211250000",
+      "summaries": {
+        "http.response_time": {
+          "min": 216,
+          "max": 832,
+          "count": 19474,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 507.8,
+          "p95": 550.1,
+          "p99": 620.3,
+          "p999": 788.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 228,
+          "max": 832,
+          "count": 6519,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 507.8,
+          "p95": 550.1,
+          "p99": 620.3,
+          "p999": 788.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 216,
+          "max": 802,
+          "count": 6463,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 507.8,
+          "p95": 550.1,
+          "p99": 632.8,
+          "p999": 788.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 220,
+          "max": 825,
+          "count": 6492,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 497.8,
+          "p95": 550.1,
+          "p99": 632.8,
+          "p999": 788.5
+        },
+        "vusers.session_length": {
+          "min": 146861.3,
+          "max": 160896.2,
+          "count": 121,
+          "p50": 148798.3,
+          "median": 148798.3,
+          "p75": 154871.1,
+          "p90": 157999.8,
+          "p95": 157999.8,
+          "p99": 161191.7,
+          "p999": 161191.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 216,
+          "max": 832,
+          "count": 19474,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 507.8,
+          "p95": 550.1,
+          "p99": 620.3,
+          "p999": 788.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 228,
+          "max": 832,
+          "count": 6519,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 507.8,
+          "p95": 550.1,
+          "p99": 620.3,
+          "p999": 788.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 216,
+          "max": 802,
+          "count": 6463,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 507.8,
+          "p95": 550.1,
+          "p99": 632.8,
+          "p999": 788.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 220,
+          "max": 825,
+          "count": 6492,
+          "p50": 347.3,
+          "median": 347.3,
+          "p75": 441.5,
+          "p90": 497.8,
+          "p95": 550.1,
+          "p99": 632.8,
+          "p999": 788.5
+        },
+        "vusers.session_length": {
+          "min": 146861.3,
+          "max": 160896.2,
+          "count": 121,
+          "p50": 148798.3,
+          "median": 148798.3,
+          "p75": 154871.1,
+          "p90": 157999.8,
+          "p95": 157999.8,
+          "p99": 161191.7,
+          "p999": 161191.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 6321,
+        "http.requests": 18982,
+        "http.codes.200": 19237,
+        "http.responses": 19237,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 6509,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 6408,
+        "vusers.failed": 0,
+        "vusers.completed": 255
+      },
+      "rates": {
+        "http.request_rate": 1899
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211260000,
+      "firstHistogramAt": 1677211260000,
+      "lastCounterAt": 1677211269999,
+      "lastHistogramAt": 1677211269999,
+      "firstMetricAt": 1677211260000,
+      "lastMetricAt": 1677211269999,
+      "period": "1677211260000",
+      "summaries": {
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 110,
+          "max": 649,
+          "count": 6321,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 487.9,
+          "p99": 561.2,
+          "p999": 632.8
+        },
+        "http.response_time": {
+          "min": 103,
+          "max": 649,
+          "count": 19237,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 497.8,
+          "p99": 572.6,
+          "p999": 632.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 110,
+          "max": 646,
+          "count": 6509,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 497.8,
+          "p99": 572.6,
+          "p999": 632.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 103,
+          "max": 638,
+          "count": 6408,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 497.8,
+          "p99": 572.6,
+          "p999": 632.8
+        },
+        "vusers.session_length": {
+          "min": 126438.2,
+          "max": 165542.6,
+          "count": 255,
+          "p50": 145851.8,
+          "median": 145851.8,
+          "p75": 148798.3,
+          "p90": 161191.7,
+          "p95": 161191.7,
+          "p99": 164448.1,
+          "p999": 164448.1
+        }
+      },
+      "histograms": {
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 110,
+          "max": 649,
+          "count": 6321,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 487.9,
+          "p99": 561.2,
+          "p999": 632.8
+        },
+        "http.response_time": {
+          "min": 103,
+          "max": 649,
+          "count": 19237,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 497.8,
+          "p99": 572.6,
+          "p999": 632.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 110,
+          "max": 646,
+          "count": 6509,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 497.8,
+          "p99": 572.6,
+          "p999": 632.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 103,
+          "max": 638,
+          "count": 6408,
+          "p50": 278.7,
+          "median": 278.7,
+          "p75": 376.2,
+          "p90": 459.5,
+          "p95": 497.8,
+          "p99": 572.6,
+          "p999": 632.8
+        },
+        "vusers.session_length": {
+          "min": 126438.2,
+          "max": 165542.6,
+          "count": 255,
+          "p50": 145851.8,
+          "median": 145851.8,
+          "p75": 148798.3,
+          "p90": 161191.7,
+          "p95": 161191.7,
+          "p99": 164448.1,
+          "p999": 164448.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 13309,
+        "http.responses": 13309,
+        "plugins.metrics-by-endpoint.Armadillo service.codes.200": 4428,
+        "http.requests": 13068,
+        "plugins.metrics-by-endpoint.Pony service.codes.200": 4522,
+        "plugins.metrics-by-endpoint.Dino service.codes.200": 4359,
+        "vusers.failed": 0,
+        "vusers.completed": 243
+      },
+      "rates": {
+        "http.request_rate": 1574
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1677211270000,
+      "firstHistogramAt": 1677211270000,
+      "lastCounterAt": 1677211279999,
+      "lastHistogramAt": 1677211279999,
+      "firstMetricAt": 1677211270000,
+      "lastMetricAt": 1677211279999,
+      "period": "1677211270000",
+      "summaries": {
+        "http.response_time": {
+          "min": 109,
+          "max": 500,
+          "count": 13309,
+          "p50": 198.4,
+          "median": 198.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 415.8,
+          "p999": 468.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 109,
+          "max": 500,
+          "count": 4428,
+          "p50": 202.4,
+          "median": 202.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 415.8,
+          "p999": 468.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 492,
+          "count": 4522,
+          "p50": 198.4,
+          "median": 198.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 407.5,
+          "p999": 441.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 491,
+          "count": 4359,
+          "p50": 198.4,
+          "median": 198.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 415.8,
+          "p999": 468.8
+        },
+        "vusers.session_length": {
+          "min": 122237.7,
+          "max": 166861.2,
+          "count": 243,
+          "p50": 154871.1,
+          "median": 154871.1,
+          "p75": 157999.8,
+          "p90": 164448.1,
+          "p95": 167770.3,
+          "p99": 167770.3,
+          "p999": 167770.3
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 109,
+          "max": 500,
+          "count": 13309,
+          "p50": 198.4,
+          "median": 198.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 415.8,
+          "p999": 468.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Armadillo service": {
+          "min": 109,
+          "max": 500,
+          "count": 4428,
+          "p50": 202.4,
+          "median": 202.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 415.8,
+          "p999": 468.8
+        },
+        "plugins.metrics-by-endpoint.response_time.Pony service": {
+          "min": 109,
+          "max": 492,
+          "count": 4522,
+          "p50": 198.4,
+          "median": 198.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 407.5,
+          "p999": 441.5
+        },
+        "plugins.metrics-by-endpoint.response_time.Dino service": {
+          "min": 109,
+          "max": 491,
+          "count": 4359,
+          "p50": 198.4,
+          "median": 198.4,
+          "p75": 252.2,
+          "p90": 301.9,
+          "p95": 340.4,
+          "p99": 415.8,
+          "p999": 468.8
+        },
+        "vusers.session_length": {
+          "min": 122237.7,
+          "max": 166861.2,
+          "count": 243,
+          "p50": 154871.1,
+          "median": 154871.1,
+          "p75": 157999.8,
+          "p90": 164448.1,
+          "p95": 167770.3,
+          "p99": 167770.3,
+          "p999": 167770.3
+        }
+      }
+    }
+  ]
+}
