@@ -1,0 +1,35 @@
+config:
+  target: http://asciiart.artillery.io:8080
+  plugins:
+    ensure: {}
+    publish-metrics:
+      - type: cloudwatch
+        region: us-east-1
+        namespace: continous-testing
+        dimensions:
+          - name: Team
+            value: SQA
+          - name: Service
+            value: checkout-svc
+    metrics-by-endpoint:
+      useOnlyRequestNames: true
+  phases:
+    - duration: 60
+      arrivalRate: 20
+  ensure:
+      thresholds:
+      # p99 of response time must be <200:
+      - "http.response_time.p99": 200
+scenarios:
+  - flow:
+      - loop:
+          - get:
+              url: "/dino"
+              name: Dino service
+          - get:
+              url: "/armadillo"
+              name: Armadillo service
+          - get:
+              url: "/pony"
+              name: Pony service
+        count: 100
